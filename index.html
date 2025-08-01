@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>  <a href="adivinhacao.html">número secreto</a> </header>
+    
+
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <p>Adicione suas tarefas!</p>
+    <input type="text" placeholder="Digite a sua tarefa!" id="inputTarefa">
+    <div id="buttons">
+    <button onclick="adicionarTarefa()" class="adicionaTarefa">Adicionar Tarefa</button>
+    <!-- <button onclick="limparLista()" class="botao_lista">Limpar Tudo</button> -->
+     </div>
+    <p id="mensagem"></p>
+    <ul id="listaTarefas">
+    </ul>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
