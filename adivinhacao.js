@@ -31,16 +31,16 @@ function numeroSecreto () {
     //     alert("parabéns você descobriu o número secreto!")
 
     // }
-    let selecioneNumero = prompt("Selecione um número entr 1 e 9!")
+    let selecioneNumero = prompt("Selecione um número entre 1 e 9!")
     
     while (selecioneNumero != numeroAleatorio) {
 
-        alert("tente de novo!")
+        alert("tente de novo, Não desista!")
         let selecioneNumero = prompt("Selecione um número entr 1 e 9!")
 
         if(selecioneNumero == numeroAleatorio) {
 
-            alert("parabéns você descobriu o número secreto")
+            alert("parabéns você descobriu o número secreto!")
             return;
         }
     }
