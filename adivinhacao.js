@@ -1,3 +1,9 @@
+let buttonBackground = document.createElement("button")
+buttonBackground.className = "buttonFundo"
+buttonBackground.textContent = "Altere a cor de fundo!"
+let buttons = document.getElementById("buttons")
+buttonBackground.onclick = () => fundo()
+buttons.appendChild(buttonBackground)
 
 function numeroSecreto () {
      let numeroAleatorio = Math.floor(Math.random() * 10)
@@ -55,5 +61,7 @@ function fundo () {
 
    let a = document.querySelector("a")
    a.style.color = "#00ff2aff"
+   // Esconder o botão após o clique
+   buttonBackground.style.display = "none";
 
 }
